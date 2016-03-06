@@ -1,5 +1,5 @@
 #!/bin/bash
-#change username and /path/to/icon.png with appropriate values
+#change wlp3s0, username and /path/to/icon.png with appropriate values
 
 sudo ifconfig wlp3s0 down && 
 sudo macchanger -r wlp3s0 && 
